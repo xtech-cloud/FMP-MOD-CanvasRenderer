@@ -1,0 +1,19 @@
+
+/_dist_/
+/_build_/
+/CanvasRenderer/Assets/TextMesh Pro/
+/CanvasRenderer/Assets/TextMesh Pro.meta
+/CanvasRenderer/Assets/Plugins/
+/CanvasRenderer/Assets/Plugins.meta
+/CanvasRenderer/Assets/3rd/
+/CanvasRenderer/Assets/3rd.meta
+/CanvasRenderer/Library/
+/CanvasRenderer/obj/
+/CanvasRenderer/Logs/
+/CanvasRenderer/Temp/
+/CanvasRenderer/UserSettings/
+/CanvasRenderer/*.sln
+/CanvasRenderer/*.csproj
+/CanvasRenderer/.vsconfig
+/CanvasRenderer/.vs/
+/.UNITY_HOME.env
