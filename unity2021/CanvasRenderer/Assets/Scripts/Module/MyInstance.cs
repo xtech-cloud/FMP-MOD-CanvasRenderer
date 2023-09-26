@@ -46,10 +46,12 @@ namespace XTC.FMP.MOD.CanvasRenderer.LIB.Unity
             if (style_.target.mode == "Overlay")
             {
                 canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+                canvas.pixelPerfect = style_.target.overlayMode.pixelPerfect;
             }
             else if (style_.target.mode == "Camera")
             {
                 canvas.renderMode = RenderMode.ScreenSpaceCamera;
+                canvas.pixelPerfect = style_.target.cameraMode.pixelPerfect;
                 var camera = GameObject.Find(style_.target.cameraMode.camera);
                 if (null == camera)
                     logger_.Error("Camera:{0} not found", style_.target.cameraMode.camera);

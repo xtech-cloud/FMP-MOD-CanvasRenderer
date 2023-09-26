@@ -10,13 +10,16 @@ namespace XTC.FMP.MOD.CanvasRenderer.LIB.Unity
     {
         public class OverlayMode
         {
-
+            [XmlAttribute("pixelPerfect")]
+            public bool pixelPerfect { get; set; } = false;
         }
 
         public class CameraMode
         {
             [XmlAttribute("camera")]
             public string camera { get; set; } = "";
+            [XmlAttribute("pixelPerfect")]
+            public bool pixelPerfect { get; set; } = false;
         }
 
         public class Target

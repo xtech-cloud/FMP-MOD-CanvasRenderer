@@ -18,12 +18,14 @@
       name: 名称
       Targer.path: 目标Canvas的路径，需可见
       Targer.mode: 目标Canvas的渲染模式， 可选值为[Overlay, Camera, World]
+      OverlayMode.pixelPerfect: 强制对齐像素，打开后图片不模糊闪烁，但可能运动不平滑，关闭后运动平滑，但图片可能模糊闪烁
+      CameraMode.pixelPerfect: 强制对齐像素，打开后图片不模糊闪烁，但可能运动不平滑，关闭后运动平滑，但图片可能模糊闪烁
     -->
   <Styles>
     <Style name="default">
       <Target path="MainCanvas" mode="Overlay">
-        <OverlayMode/>
-        <CameraMode camera="Main Camera"/>
+        <OverlayMode pixelPerfect="false"/>
+        <CameraMode camera="Main Camera" pixelPerfect="false"/>
       </Target>
     </Style>
   </Styles>
